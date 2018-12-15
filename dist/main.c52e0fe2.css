@@ -1,0 +1,169 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+ul {
+  margin: rem(0px);
+  padding: rem(0px);
+}
+
+ul li {
+  list-style: none;
+}
+
+p {
+  margin: rem(0px);
+  padding: rem(0px);
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #8cacea;
+}
+
+.wrapper {
+  width: 1000px;
+  height: 400px;
+  margin: 100px auto;
+}
+
+.list {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  align-items: flex-start;
+}
+
+.list__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px 46px;
+  width: 33.3%;
+  font-family: "Roboto";
+}
+
+.list__item__img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.desc__title__text {
+  font-family: "Roboto";
+  text-transform: uppercase;
+  color: #3162f7;
+  letter-spacing: 5px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.desc {
+  font-size: 15px;
+  display: block;
+  text-align: center;
+}
+
+.desc__text {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.desc__price {
+  color: #3162f7;
+  font-weight: normal;
+}
+
+.desc__sale {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Roboto";
+  margin-right: 5px;
+}
+
+.desc__symbol {
+  font-size: 15px;
+  font-weight: bold;
+}@media screen and (max-width: 1200px) {
+  .wrapper {
+    width: 970px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .wrapper {
+    width: 750px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .wrapper {
+    width: 480px;
+  }
+
+  .list {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .list__item {
+    flex-direction: row;
+    width: 100%;
+    padding: 0;
+  }
+
+  .list__item__img {
+    width: 75px;
+    height: 75px;
+    margin-bottom: 0;
+    margin-right: 5px;
+  }
+
+  .desc {
+    width: 80%;
+  }
+
+  .desc__text {
+    margin-bottom: 5px;
+  }
+
+  .desc__title__text {
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+
+  .desc__price {
+    font-size: 15px;
+  }
+
+  .desc__sale {
+    font-size: 20px;
+  }
+
+  .desc__symbol {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .wrapper {
+    width: 95%;
+  }
+
+  .desc__text {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "sky-eng-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "media": "^0.2.1",
+    "normalize.css": "^8.0.1",
+    "style": "0.0.3"
+  },
+  "devDependencies": {
+    "sass": "^1.15.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GordeySpb/sky-eng-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GordeySpb/sky-eng-test/issues"
+  },
+  "homepage": "https://github.com/GordeySpb/sky-eng-test#readme"
+}
